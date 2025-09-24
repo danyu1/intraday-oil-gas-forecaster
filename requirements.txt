@@ -1,0 +1,36 @@
+@'
+# Core
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+pyarrow>=17.0
+joblib>=1.4
+pyyaml>=6.0
+rich>=13.7
+loguru>=0.7
+
+# Modeling
+torch>=2.2
+pytorch-lightning>=2.2
+xgboost>=2.1
+lightgbm>=4.3
+scikit-learn>=1.5
+optuna>=3.6
+
+# Time-series DL (NeuralForecast)
+neuralforecast>=1.7.4
+
+# Backtest
+vectorbt>=0.26
+
+# Metrics & stats
+empyrical>=0.5
+arch>=6.4
+
+# Plotting
+matplotlib>=3.9
+plotly>=5.24
+
+# Dev
+tqdm>=4.66
+'@ | Out-File -FilePath requirements.txt -Encoding UTF8
